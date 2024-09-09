@@ -1,0 +1,20 @@
+going to aws account
+create the server
+install java software
+install maven
+clone
+build
+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
+
+sudo dnf install java-21-amazon-corretto
+java --version
+   21  sudo yum update -y
+   22  wget https://archive.apache.org/dist/maven/maven-3/3.8.6/binaries/apache-maven-3.8.6-bin.tar.gz
+   23  ls
+   24  tar -xzf apache-maven-3.8.6-bin.tar.gz
+   25  ls
+   26  sudo mv apache-maven-3.8.6 /opt/maven
+   27  sudo nano /etc/profile.d/maven.sh
+   28  sudo chmod +x /etc/profile.d/maven.sh
+   29  source /etc/profile.d/maven.sh
+   30  mvn -version
